@@ -1,0 +1,7 @@
+.links{
+	@include tema(#FFC0CB, #DC143C, #191970);
+}
+
+.links:hover{
+	@include tema(#800000, white, #191970);
+}

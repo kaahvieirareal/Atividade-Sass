@@ -1,0 +1,13 @@
+@mixin tema($bgc, $clr, $bdr){
+	background-color: $bgc;
+	color: $clr;
+	border: $bdr;
+}
+
+.brand{
+	@include tema(#ADD8E6, #191970, #191970);
+}
+
+.brand:hover{
+	@include tema(#708090, white, #191970);
+}

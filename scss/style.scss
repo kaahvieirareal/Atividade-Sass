@@ -1,0 +1,33 @@
+%cor{
+	border: 1px solid #000;
+}
+
+@mixin tema($bgc, $clr){
+	background-color: $bgc;
+	color: $clr;
+}
+
+.brand-comp:hover{
+	@extend %cor;
+	@include tema(#fff, #000);
+}
+
+ .nav-comp{
+ 	@extend %cor;
+ 	@include tema(white, #191970);
+}
+
+.home-comp:hover{
+	@extend %cor;
+	@include tema(#191970, #ccc);
+}
+
+.about-comp:hover{
+	@extend %cor;
+	@include tema(#191970, #ccc);
+}
+
+.contact-comp:hover{
+	@extend %cor;
+	@include tema(#191970, #ccc);
+}

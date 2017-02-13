@@ -1,0 +1,22 @@
+.brand-comp:hover, .nav-comp, .home-comp:hover, .about-comp:hover, .contact-comp:hover {
+  border: 1px solid #000; }
+
+.brand-comp:hover {
+  background-color: #fff;
+  color: #000; }
+
+.nav-comp {
+  background-color: white;
+  color: #191970; }
+
+.home-comp:hover {
+  background-color: #191970;
+  color: #ccc; }
+
+.about-comp:hover {
+  background-color: #191970;
+  color: #ccc; }
+
+.contact-comp:hover {
+  background-color: #191970;
+  color: #ccc; }
